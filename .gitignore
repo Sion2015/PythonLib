@@ -107,3 +107,4 @@ reference/
 
 *.pyc:
 *.xml
+*.iml
