@@ -108,3 +108,4 @@ reference/
 *.pyc 
 *.xml
 *.iml
+log/
