@@ -23,5 +23,5 @@ handlers.MyFileHandler = MyFileHandler
 handlers.MyTimeRotatingFileHandler = MyTimeRotatingFileHandler
 
 CONF.log_config_append = str(SRC_PATH.joinpath("conf", "logging.conf"))
-DOMAIN = 'demo'
-logging.setup(CONF, "test")
+DOMAIN = 'test'
+logging.setup(CONF, DOMAIN)
